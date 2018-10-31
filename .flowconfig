@@ -1,0 +1,15 @@
+[ignore]
+.*/node_modules/.*
+.*/.git/.*
+.*/.idea/.*
+.*/dist/.*
+
+[include]
+
+[libs]
+
+[options]
+all=false
+module.system=haste
+esproposal.decorators=ignore
+module.name_mapper='.*\.\(svg\|png\|jpg\|gif\|css\|scss\)$' -> 'stub'
