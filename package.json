@@ -22,7 +22,9 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "config": "^1.28.1"
+  },
   "devDependencies": {
     "@babel/cli": "7.1.2",
     "@babel/core": "7.1.2",

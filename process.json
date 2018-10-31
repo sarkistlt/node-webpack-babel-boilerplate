@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "core-api",
+      "script": "./build/index.js",
+      "interpreter": "node",
+      "instances": 0,
+      "exec_mode" : "cluster",
+      "instance_var": "INSTANCE_ID",
+      "env": {
+        "NODE_CONFIG_DIR": "./config/"
+      }
+    }
+  ]
+}
